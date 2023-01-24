@@ -1,10 +1,5 @@
-# html_ts_boilerplate
-To start coding open your terminal and write
-```
-npm i
-```
+# player viewer/editor 
 
-When all packages have been installed run:
-```
-npm start
-```
+web developer test-task
+
+CRUD application where you can read and edit data from a json server

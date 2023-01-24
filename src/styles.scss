@@ -5,38 +5,33 @@
 }
 
 body {
-    font-family: monospace;
-    margin: 20px 50px;
+    font-family: monospace sans-serif;
+    margin: 45px calc(50% - 430px);
+    max-width: 860px;
 }
 
 .head {
     background-color: var(--main-color);
     color: white;
-    outline: 1px solid #ffffff;
-    padding: 0px 15px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid lightgray;
 }
 
-.sort__container {
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    justify-content: space-between;
+.table th {
+    font-size: 1.125em;
+    padding: 0rem 0.125rem;
 }
 
 .table__body td {
-    //padding-left: 3px;
     font-size: 0.75rem;
 }
 
 .table td {
-    padding: 0.125rem 0rem 0rem 0rem
+    padding: 0.15rem 0rem 0rem 0.05rem;
+    border-top: none;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;;
 }
-
-.table th {
-    font-size: 1.125rem;
-    padding: 0rem
-}
-
 
 .table__col-name {
     width: 25%;
@@ -65,7 +60,7 @@ body {
     cursor: pointer;
     user-select: none;
     padding: 0px 15px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -82,28 +77,32 @@ body {
     gap: 5px;
 }
 
+
+// button colors
 .delete {
     background-color: crimson;
 }
-
 .edit {
     background-color: dodgerblue;
 }
-
 .accept {
     background-color: mediumseagreen;
 }
-
 .new-player {
-    background-color: mediumslateblue;
+    background-color: var(--main-color);
+    color: #ffffff;
 }
-
 .page-btn {
     background-color: var(--accent-color);
     color: #ffffff;
 }
+.cancel {
+    background-color: firebrick;
+}
+
 
 .editor {
+    width: 300px;
     position: fixed;
     display: flex;
 
@@ -114,6 +113,28 @@ body {
     background-color: #ffffff;
     box-shadow: 1px 1px 25px var(--main-color);
 
-    left: 20%;
-    top: 20%;
+    left: calc(50% - 150px);
+    top: 10%;
 }
+
+@media only screen and (max-width: 576px) {
+
+    :root {
+        font-size: 10px;
+    }
+
+    body {
+        font-family: monospace sans-serif;
+        font-size: 12px;
+        margin: 20px 5px;
+        //width: 90vw;
+        max-width: 450px;
+    }
+    .button {
+        padding: 0px 5px;
+    }
+    .table th {
+        font-size: 10px;
+    }
+
+  }
