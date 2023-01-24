@@ -24,7 +24,6 @@ interface Player {
 }
 
 
-
 const writeRowsFromDB = async (url:string, table:HTMLTableElement,
                           current_page:number, page_length:number) => {
 
