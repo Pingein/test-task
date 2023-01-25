@@ -13,18 +13,30 @@
 <body>
     
     <div class="buttons">
-        <div class="buttons__new-player button new-player">NEW PLAYER</div>
-        <div class="buttons__previous button page-btn"><</div>
-        <div class="page__counter">
-            <span class="page__current">1</span>
-            /
-            <span class="page__total">x</span>
+        <div class="buttons__browse">
+            <div class="buttons__new-player button new-player">ADD PLAYER +</div>
+            <div class="buttons__search button search">S</div>
         </div>
-        <div class="buttons__next button page-btn">></div>
-        <div class="page__size">
-            <input type="number"
-                    class="page__size-input"
-                    value="20">
+
+        <div class="buttons__pagination">
+            <div class="buttons__previous button page-btn">←</div>
+            <div class="page__counter">
+                <span class="page__current">1</span>
+                /
+                <span class="page__total">x</span>
+            </div>
+            <div class="buttons__next button page-btn">→</div>
+        </div>
+
+        <div class="buttons__page-size">
+            <span class="page-size-text">
+                Players per page:
+            </span>
+            <div class="page-size">
+                <input type="number"
+                        class="page-size-input"
+                        value="30">
+            </div>
         </div>
     </div>
 
@@ -32,15 +44,36 @@
         <thead class="table__head">
             <tr>
             <th class="table__col-name head">
-                Player Name
+                <div class="sort__container name">
+                    <span class="sort__option">
+                        Player Name
+                    </span>
+                    <span class="sort__order">
+                        …
+                    </span>
+                </div>
             </th>
 
             <th class="table__col-email head">
-                Email
+                <div class="sort__container email">
+                    <span class="sort__option">
+                        Email
+                    </span>
+                    <span class="sort__order">
+                        …
+                    </span>
+                </div>
             </th>
 
             <th class="table__col-age head">
-                Age
+                <div class="sort__container age">
+                    <span class="sort__option">
+                        Age
+                    </span>
+                    <span class="sort__order">
+                        …
+                    </span>
+                </div>
             </th>
 
             <th class="table__col-pass head">

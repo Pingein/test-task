@@ -1,18 +1,11 @@
 {
   "players": [
     {
-      "id": 2,
-      "name": "Jo Mendoza",
-      "email": "jomendoza@filodyne.com",
-      "password": "Conner667",
-      "age": 56
-    },
-    {
       "id": 3,
       "name": "Rosario Michael",
       "email": "rosariomichael@filodyne.com",
       "password": "Shepard105",
-      "age": 16
+      "age": 46
     },
     {
       "id": 5,
@@ -22,25 +15,11 @@
       "age": 50
     },
     {
-      "id": 6,
-      "name": "Dee Mooney",
-      "email": "deemooney@filodyne.com",
-      "password": "Franks954",
-      "age": 46
-    },
-    {
       "id": 10,
       "name": "Marla Fuentes",
       "email": "marlafuentes@filodyne.com",
       "password": "Chang171",
       "age": 40
-    },
-    {
-      "id": 11,
-      "name": "Haley Newton",
-      "email": "haleynewton@filodyne.com",
-      "password": "Donovan374",
-      "age": 60
     },
     {
       "id": 12,
@@ -76,13 +55,6 @@
       "email": "hammondserrano@filodyne.com",
       "password": "Salas531",
       "age": 24
-    },
-    {
-      "id": 17,
-      "name": "Krystal Jones",
-      "email": "krystaljones@filodyne.com",
-      "password": "Yang323",
-      "age": 18
     },
     {
       "id": 18,
@@ -125,13 +97,6 @@
       "email": "clarissashort@filodyne.com",
       "password": "Oneill316",
       "age": 45
-    },
-    {
-      "id": 24,
-      "name": "Barlow Whitehead",
-      "email": "barlowwhitehead@filodyne.com",
-      "password": "Arnold898",
-      "age": 20
     },
     {
       "id": 25,
@@ -195,13 +160,6 @@
       "email": "heathercotton@filodyne.com",
       "password": "Chaney676",
       "age": 55
-    },
-    {
-      "id": 34,
-      "name": "Paula Fletcher",
-      "email": "paulafletcher@filodyne.com",
-      "password": "Bond356",
-      "age": 56
     },
     {
       "id": 35,
@@ -358,13 +316,6 @@
       "age": 54
     },
     {
-      "id": 58,
-      "name": "Ayers Barker",
-      "email": "ayersbarker@filodyne.com",
-      "password": "Byers833",
-      "age": 30
-    },
-    {
       "id": 59,
       "name": "Tyson Wolf",
       "email": "tysonwolf@filodyne.com",
@@ -426,13 +377,6 @@
       "email": "lorieatkins@filodyne.com",
       "password": "Rollins741",
       "age": 41
-    },
-    {
-      "id": 68,
-      "name": "Miranda Noel",
-      "email": "mirandanoel@filodyne.com",
-      "password": "Durham155",
-      "age": 59
     },
     {
       "id": 69,
@@ -512,13 +456,6 @@
       "age": 39
     },
     {
-      "id": 80,
-      "name": "Lindsay Butler",
-      "email": "lindsaybutler@filodyne.com",
-      "password": "Allison437",
-      "age": 59
-    },
-    {
       "id": 81,
       "name": "Tyler Woodard",
       "email": "tylerwoodard@filodyne.com",
@@ -575,13 +512,6 @@
       "age": 30
     },
     {
-      "id": 90,
-      "name": "Mayra Ford",
-      "email": "mayraford@filodyne.com",
-      "password": "Wheeler970",
-      "age": 35
-    },
-    {
       "id": 91,
       "name": "Bettye Solomon",
       "email": "bettyesolomon@filodyne.com",
@@ -624,32 +554,11 @@
       "age": 49
     },
     {
-      "id": 97,
-      "name": "Gentry Moreno",
-      "email": "gentrymoreno@filodyne.com",
-      "password": "Eaton76",
-      "age": 26
-    },
-    {
       "id": 98,
       "name": "Anita Hardin",
       "email": "anitahardin@filodyne.com",
       "password": "Dominguez292",
       "age": 42
-    },
-    {
-      "id": 99,
-      "name": "Judith Pickett",
-      "email": "judithpickett@filodyne.com",
-      "password": "Maldonado950",
-      "age": 41
-    },
-    {
-      "id": 100,
-      "name": "Carmen Ward",
-      "email": "carmenward@filodyne.com",
-      "password": "Case600",
-      "age": 43
     },
     {
       "id": 101,
@@ -733,7 +642,7 @@
       "name": "Concepcion Coffey",
       "email": "concepcioncoffey@filodyne.com",
       "password": "Banks533",
-      "age": 49
+      "age": 46
     },
     {
       "id": 113,
@@ -741,20 +650,6 @@
       "email": "maysbates@filodyne.com",
       "password": "Noble633",
       "age": 52
-    },
-    {
-      "id": 114,
-      "name": "Lillie Morgan",
-      "email": "lilliemorgan@filodyne.com",
-      "password": "Vasquez282",
-      "age": 31
-    },
-    {
-      "id": 115,
-      "name": "Elizabeth Smith",
-      "email": "elizabethsmith@filodyne.com",
-      "password": "Gillespie8",
-      "age": 18
     },
     {
       "id": 116,
@@ -1213,10 +1108,10 @@
     },
     {
       "id": 181,
-      "name": "Sanchez Monroe",
-      "email": "sanchezmonroe@filodyne.com",
-      "password": "Delacruz306",
-      "age": 39
+      "name": "Kristofers Prancitis",
+      "email": "mail@gmail.com",
+      "password": "drosaparole",
+      "age": 21
     },
     {
       "id": 182,
@@ -1415,13 +1310,6 @@
       "age": 35
     },
     {
-      "id": 210,
-      "name": "Tabatha James",
-      "email": "tabathajames@filodyne.com",
-      "password": "Spencer168",
-      "age": 18
-    },
-    {
       "id": 211,
       "name": "Molly Gardner",
       "email": "mollygardner@filodyne.com",
@@ -1609,13 +1497,6 @@
       "email": "andersonbest@filodyne.com",
       "password": "Bolton502",
       "age": 43
-    },
-    {
-      "id": 238,
-      "name": "Lavonne Sheppard",
-      "email": "lavonnesheppard@filodyne.com",
-      "password": "Casey424",
-      "age": 27
     },
     {
       "id": 239,
@@ -2528,13 +2409,6 @@
       "age": 28
     },
     {
-      "id": 369,
-      "name": "Audrey Berry",
-      "email": "audreyberry@filodyne.com",
-      "password": "Johns199",
-      "age": 25
-    },
-    {
       "id": 370,
       "name": "Dawson Romero",
       "email": "dawsonromero@filodyne.com",
@@ -3323,7 +3197,7 @@
       "name": "Vang Neal",
       "email": "vangneal@filodyne.com",
       "password": "Brock803",
-      "age": 22
+      "age": 23
     },
     {
       "id": 483,
