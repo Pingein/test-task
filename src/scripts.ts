@@ -63,7 +63,7 @@ const reloadTable = (table:HTMLTableElement, url:string,
     return writeRowsFromDB(url, table, current_page, page_length)
 }
 
-const createPlayerEditMenu = async (URL:string,
+const createPlayerEditMenu = async (url:string,
                                     id?:number, name?:string,
                                     email?: string, age?:number,
                                     password?:string) => {
@@ -106,7 +106,7 @@ const createPlayerEditMenu = async (URL:string,
         password = menu.querySelector<HTMLInputElement>('.editor__player-password').value
 
         if (!id && name && email && age && password) {
-            await axios.post(URL+'/', {
+            await axios.post(url+'/', {
                 name: name,
                 email: email,
                 age: age,
@@ -116,14 +116,14 @@ const createPlayerEditMenu = async (URL:string,
             reloadTable(table, URL, current_page, page_length)
         } 
         else if (name && email && age && password) {
-            await axios.patch(URL+`/${id}`, {
+            await axios.patch(url+`/${id}`, {
                 name: name,
                 email: email,
                 age: age,
                 password: password
             })
             menu.remove()
-            reloadTable(table, URL, current_page, page_length)
+            reloadTable(table, url, current_page, page_length)
         } 
         else {
             alert('Please fill all fields')
