@@ -5,7 +5,7 @@
       "name": "Jo Mendoza",
       "email": "jomendoza@filodyne.com",
       "password": "Conner667",
-      "age": 50
+      "age": 56
     },
     {
       "id": 3,
@@ -27,20 +27,6 @@
       "email": "deemooney@filodyne.com",
       "password": "Franks954",
       "age": 46
-    },
-    {
-      "id": 7,
-      "name": "Rene Sexton",
-      "email": "renesexton@filodyne.com",
-      "password": "Burks919",
-      "age": 38
-    },
-    {
-      "id": 9,
-      "name": "Rollins Owen",
-      "email": "rollinsowen@filodyne.com",
-      "password": "Vaughn25",
-      "age": 53
     },
     {
       "id": 10,
